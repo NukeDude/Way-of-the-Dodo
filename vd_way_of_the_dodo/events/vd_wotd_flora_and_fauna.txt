@@ -1,3 +1,7 @@
+#
+# notes:  # = code comment  ## = editing comment  ### = todo comment
+#
+
 ########################################################################################
 #Way of the Dodo - Flora & Fauna events (Mostly covering now extinct/endangered animals)
 ################
@@ -88,7 +92,29 @@ country_event = {
 	desc = flora_and_fauna.2.d
 	picture = STELLER_SEA_COW_eventPicture
 	trigger = {
-		primary_culture = phoenician
+		OR = {
+			any_province = {
+				limit = {
+					### 
+				}
+				OR = {
+					light_ships_in_province = ROOT
+					heavy_ships_in_province = ROOT
+				}
+			}
+			random_active_trade_node = {
+				limit = {
+					OR = {
+						id = 
+						id = 
+					}
+				}
+				trade_share = {
+					country = ROOT
+					share = 10
+				}
+			}
+		}
 	}
 
 	# Move on, there is more to explore!
@@ -97,12 +123,19 @@ country_event = {
 	}
 	# Stock up on meat for the long journey.
 	option = {	
-		name = "flora_and_fauna.EVTOPTB2"
+		name = "flora_and_fauna.EVTOPTB2"   ## sounds like a bad idea, exploring ships don't take attrition anyways
+		add_country_modifier = {
+			name = sea_cow_meat_stored
+			duration = 61
+		}
 	}
 	# Sell the 'Mermaid Skeleton' to a foreign court.
 	option = {	
 		name = "flora_and_fauna.EVTOPTC2"
-		add_years_of_income = 0.50
+		add_years_of_income = 0.25
+		random_ally = {
+			add_prestige = 10
+		}
 	}
 	# Cows, you say? Would they make a nice cheese?
 	option = {	
