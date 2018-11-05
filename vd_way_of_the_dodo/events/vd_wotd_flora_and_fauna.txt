@@ -94,28 +94,42 @@ country_event = {
 	trigger = {
 		OR = {
 			any_province = {
-				limit = {
-					### 
-				}
+				### put in provinces
 				OR = {
 					light_ships_in_province = ROOT
 					heavy_ships_in_province = ROOT
 				}
 			}
-			random_active_trade_node = {
-				limit = {
-					OR = {
-						id = 
-						id = 
-					}
+			any_active_trade_node = {
+				OR = {
+					id = ### put in TN ids
+					id = 
 				}
-				trade_share = {
+				trade_share = { # there's no protecting trade condition...
 					country = ROOT
-					share = 10
+					share = 15
+				}
+				trade_range = ROOT
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 3
+		
+		modifier = {
+			factor = 24  # 6 years otherwise - most likely better to split the event
+			NOT = {
+				any_province = {
+					### put in provinces
+					OR = {
+						light_ships_in_province = ROOT
+						heavy_ships_in_province = ROOT
+					}
 				}
 			}
 		}
 	}
+	fire_only_once = yes  ## or restrict it to once per country?
 
 	# Move on, there is more to explore!
 	option = {	
@@ -140,6 +154,16 @@ country_event = {
 	# Cows, you say? Would they make a nice cheese?
 	option = {	
 		name = "flora_and_fauna.EVTOPTD2"
+		random_province = {
+			limit = {
+				### put in provinces
+				NOT = {
+					trade_goods = livestock
+				}
+			}
+			change_trade_goods = livestock
+			add_base_production = 2
+		}
 	}
 }
 
@@ -616,17 +640,45 @@ country_event = {
 	desc = flora_and_fauna.21.d
 	picture = WALRUS_eventPicture
 	trigger = {
-		primary_culture = phoenician
+		### provinces?
+		has_female_heir = yes
+		OR = { # at least one 0
+			NOT = { heir_adm = 1 }
+			NOT = { heir_dip = 1 }
+			NOT = { heir_mil = 1 }
+		}
+		NOT = { # none at 5/6
+			OR = {
+				heir_adm = 5
+				heir_dip = 5
+				heir_mil = 5
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 12  ### todo
 	}
 	# A high cliff it is. Both of them.
 	option = { 
 		name = "flora_and_fauna.EVTOPTA21"
+		define_heir = {
+			dynasty = ROOT
+			adm = 1
+			dip = 1
+			mil = 1
+			claim = 25
+			no_consort_with_heir = yes
+			male = yes
+		}
 	}
 	# Preposterous. Lock her up. 
 	option = { 
 		name = "flora_and_fauna.EVTOPTB21"
+		prestige = -5
 	}
 }
+
+####
 
 # Return of the “Cameleopards” 
 country_event = {
