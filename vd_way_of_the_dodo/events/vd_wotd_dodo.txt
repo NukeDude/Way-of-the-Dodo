@@ -1,0 +1,482 @@
+########################################################################################
+#Way of the Dodo - Dodo (Especially for the Dodo... Let's see how many we can create)
+################
+#1. An Odd Flightless Bird
+#2. Dodo Extinct
+
+namespace = dodo
+
+# An Odd Flightless Bird
+country_event = {
+	id = dodo.1
+	title = dodo.1.t
+	desc = dodo.1.d
+	picture = FIRST_DODO_ENCOUNTER_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# And thus it must taste great!
+	option = { 
+		name = "dodo.EVTOPTA1"
+	}
+	# Take some specimens back home.
+	option = { 
+		name = "dodo.EVTOPTB1"
+	}
+	# Just leave the bird alone. It's not worth the hassle.
+	option = { 
+		name = "dodo.EVTOPTC1"
+	}
+}
+
+# Dodo Extinct
+country_event = {
+	id = dodo.2
+	title = dodo.2.t
+	desc = dodo.2.d
+	picture = DODO_EXTINCT_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# Dead as a Dodo.
+	option = { 
+		name = "dodo.EVTOPTA2"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}
+
+# 
+country_event = {
+	id = dodo.
+	title = dodo..t
+	desc = dodo..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "dodo.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "dodo.EVTOPTC"
+	}
+}

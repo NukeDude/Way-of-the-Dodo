@@ -1,0 +1,103 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "FIRST_DODO_ENCOUNTER_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/FIRST_DODO_ENCOUNTER_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "DODO_EXTINCT_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/DODO_EXTINCT_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/dodo/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+}

@@ -1,0 +1,1806 @@
+########################################################################################
+#Way of the Dodo - Flora & Fauna events (Mostly covering now extinct/endangered animals)
+################
+# 1. Shagged by a Kakapo
+# 2. Sea Cows Ahoy! (Steller Sea Cow)
+# 3. Man-Sized Salamanders (Japanese/Chinese Giant Salamander)
+# 4. Elephantine Birds
+# 5. Swimming Jackasses (African Penguins)
+# 6. Cook Lost in the Jungle (Orangutan)
+# 7. Stinkbird Hoatzin
+# 8. Rediscovery of “DaXiongMao”
+# 9. A Painter’s Passing Fancy?
+# 10. Thieving Tamarins (Golden Lion Tamarins)
+# 11. An Etymological Mistake or a Farce?
+# 12. A not so Holy Saviour (Puerto Rican Parrot)
+# 13. Tasmanian Wolf (Thylacine Wolf)
+# 14. Maori and the Moa
+# 15. The Pygmy Elephants of the Borneo
+# 16. Beaver Bollocks
+# 17. A Monstrous Brute (Western Lowland Gorilla)
+# 18. Huohu - Red Panda’s Good Luck Charm
+# 19. Rampant Mandrill Horde
+# 20. Here be Dragons (Komodo Dragons)
+# 21. Myth of the Raven (Walrus)
+# 22. Return of the “Cameleopards”
+# 34. Goddess of the add_years_of_incomengtze (Baiji)
+# 39. Trodden Rattlesnake
+# 40. Condor: King of Birds
+# 41. Exploitation of Sao’s Francisco’s Caatinga - Spix’s Dilemma (Spix Macaw)
+# 139. Admiral Kakapo
+# 140. Dragon Pond (Japanese/Chinese Giant Salamander)
+
+namespace = flora_and_fauna
+
+# Shagged by a Kakapo
+country_event = {
+	id = flora_and_fauna.1
+	title = flora_and_fauna.1.t
+	desc = flora_and_fauna.1.d
+	picture = KAKAPO_eventPicture
+	trigger = {
+		ai = no
+		NOT = {
+			has_country_flag = kakapo_shag
+		}
+		OR = {
+			has_discovered = 1246
+			has_discovered = 1109
+			has_discovered = 2738
+		}
+	}
+	mean_time_to_happen = {
+		months = 12
+	}
+	# Just save that poor man from that horny bird already...
+	option = { 
+		name = "flora_and_fauna.EVTOPTA1"
+		set_country_flag = kakapo_shag
+		add_army_tradition = 0.01
+	}
+	# Catch it! We can trade it for favors with the natives.
+	option = { 
+		name = "flora_and_fauna.EVTOPTB1"
+		set_country_flag = kakapo_shag
+		1246 = {
+			change_native_hostileness = -2
+		}
+		1109 = {
+			change_native_hostileness = -2
+		}
+		2738 = {
+			change_native_hostileness = -2
+		}
+	}
+	# Make him our Ship's Parrot! Hope he behaves.
+	option = { 
+		name = "flora_and_fauna.EVTOPTC1"
+		add_prestige = 5
+		set_country_flag = admiral_kakapo
+		set_country_flag = kakapo_shag
+	}
+}
+
+# Sea Cows Ahoy! (Steller Sea Cow)
+country_event = {
+	id = flora_and_fauna.2
+	title = flora_and_fauna.2.t
+	desc = flora_and_fauna.2.d
+	picture = STELLER_SEA_COW_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+
+	# Move on, there is more to explore!
+	option = {	
+		name = "flora_and_fauna.EVTOPTA2"
+	}
+	# Stock up on meat for the long journey.
+	option = {	
+		name = "flora_and_fauna.EVTOPTB2"
+	}
+	# Sell the 'Mermaid Skeleton' to a foreign court.
+	option = {	
+		name = "flora_and_fauna.EVTOPTC2"
+		add_years_of_income = 0.50
+	}
+	# Cows, you say? Would they make a nice cheese?
+	option = {	
+		name = "flora_and_fauna.EVTOPTD2"
+	}
+}
+
+# Man-Sized Salamanders (Japanese Giant Salamander)
+country_event = {
+	id = flora_and_fauna.3
+	title = flora_and_fauna.3.t
+	desc = flora_and_fauna.3.d
+	picture = JAPANESE_GIANT_SALAMANDER_eventPicture
+	trigger = {
+		ai = no
+		NOT = {
+			has_country_flag = man_sized_salamander
+		}
+		OR = {
+			culture_group = chinese
+			culture_group = japanese
+		}
+		AND = {
+			owns_core_province = 1017
+			owns_core_province = 1825
+			owns_core_province = 1018
+			owns_core_province = 1019
+			owns_core_province = 1820
+			owns_core_province = 1819
+			owns_core_province = 1830
+			owns_core_province = 1014
+		}
+	}
+	mean_time_to_happen = {
+		months = 12
+	}
+	# Farm it for its medicinal value.
+	option = {	
+		name = "flora_and_fauna.EVTOPTA3"
+		add_years_of_income = 1
+		hidden_effect = {
+			set_country_flag = man_sized_salamander
+		}
+	}
+	# Create a festival to celebrate it.
+	option = {	
+		name = "flora_and_fauna.EVTOPTB3"
+		capital_scope = {
+			add_base_production = 1
+		}
+		hidden_effect = {
+			set_country_flag = man_sized_salamander
+		}
+	}
+	# Venture out to get one to our Royal court. Call it Hellbender.
+	option = {	
+		name = "flora_and_fauna.EVTOPTC3"
+		capital_scope = {
+			add_unrest = -1
+		}
+		hidden_effect = {
+			set_country_flag = man_sized_salamander
+		}
+	}
+}
+
+# Elephant Birds
+country_event = {
+	id = flora_and_fauna.4
+	title = flora_and_fauna.4.t
+	desc = flora_and_fauna.4.d
+	picture = ELEPHANT_BIRD_eventPicture
+	trigger = {
+		ai = no
+		capital_scope = {
+			continent = europe
+		}
+		OR = {
+			owns_core_province = 4023
+			owns_core_province = 1792
+		 	owns_core_province = 4027
+			owns_core_province = 4030
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+	# Send these eggs to our friends.
+	option = {
+		name = "flora_and_fauna.EVTOPTA4"
+		every_ally = {
+			add_opinion = {
+				who = ROOT
+				modifier = colonial_relation
+				years = 2
+			}
+		}
+	}
+	# Send these ‘chicken eggs’ to our rivals.
+	option = {
+		name = "flora_and_fauna.EVTOPTB4"
+		every_rival_country = {
+			add_opinion = {
+				who = ROOT
+				modifier = insulted
+				years = 2
+			}
+		}
+		add_prestige = 20
+	}
+	# Tell the court we’ve found the Island of Rukh.
+	option = {	
+		name = "flora_and_fauna.EVTOPTC4"
+		trigger = {
+			OR = {
+				has_matching_religion = sunni
+				has_matching_religion = shia
+				has_matching_religion = ibadi
+			}
+		}
+		add_prestige = 30
+	}
+	# Of course. Venice is the land of great men.
+	option = {
+		name = "flora_and_fauna.EVTOPTD4"
+		trigger = {
+			tag = VEN
+		}
+		add_prestige = 30
+	}
+	# These Birds might come in handy… Don't harm them.
+	option = {
+		name = "flora_and_fauna.EVTOPTE4"
+	}
+}
+
+# Swimming Jackasses
+country_event = {
+	id = flora_and_fauna.5
+	title = flora_and_fauna.5.t
+	desc = flora_and_fauna.5.d
+	picture = AFRICAN_PENGUINS_eventPicture
+	trigger = {
+		ai = no
+		has_discovered = 1174
+		has_discovered = 1177
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	# Claim the Islands.
+	option = {
+		name = "flora_and_fauna.EVTOPTA5"
+		1174 = {
+			add_claim = ROOT
+		}
+		1177 = {
+			add_claim = ROOT
+		}
+	}
+	# Take some back to our court, the children will like them.
+	option = {
+		name = "flora_and_fauna.EVTOPTB5"
+		every_subject_country = {
+			add_liberty_desire = -5
+		}
+	}
+	# I have a new idea for a coat.
+	option = {
+		name = "flora_and_fauna.EVTOPTC5"
+		trigger = {
+			employed_advisor = {
+				type = artist
+			}
+		}
+		add_dip_power = 20
+	}
+}
+
+# Cook Lost in the Jungle
+country_event = {
+	id = flora_and_fauna.6
+	title = flora_and_fauna.6.t
+	desc = flora_and_fauna.6.d
+	picture = ORANGUTAN_eventPicture
+	trigger = {
+		ai = no
+		capital_scope = {
+			continent = europe
+		}
+		num_of_owned_provinces_with  = {
+			value = 1
+			OR = {
+				area = kutai_area
+				area = brunei_area
+				area = kalimantan_area
+			}
+		}
+	}
+	
+	# Blame the natives for her disappearance.
+	option = {	
+		name = "flora_and_fauna.EVTOPTA6"
+	}
+	# Might be madness induced by a tropical disease.
+	option = {
+		name = "flora_and_fauna.EVTOPTB6"
+	}
+	# Hunt the “People of the Forest”.
+	option = {
+		name = "flora_and_fauna.EVTOPTC6"
+	}
+}
+
+# Stinkbird Hoatzin
+country_event = {
+	id = flora_and_fauna.7
+	title = flora_and_fauna.7.t
+	desc = flora_and_fauna.7.d
+	picture = HOATZIN_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# Bugger.
+	option = { 
+		name = "flora_and_fauna.EVTOPTA7"
+	}
+}
+
+# Rediscovery of “DaXiongMao”
+country_event = {
+	id = flora_and_fauna.8
+	title = flora_and_fauna.8.t
+	desc = flora_and_fauna.8.d
+	picture = PANDA_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# Conduct Panda Diplomacy.
+	option = { 
+		name = "flora_and_fauna.EVTOPTA8"
+	}
+	# Are we certain it doesn't have any healing properties?
+	option = { 
+		name = "flora_and_fauna.EVTOPTB8"
+	}
+}
+
+# A Painter’s Passing Fancy?
+country_event = {
+	id = flora_and_fauna.9
+	title = flora_and_fauna.9.t
+	desc = flora_and_fauna.9.d
+	picture = OCELOT_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# Allow Babou, the Ocelot, to return home with the painter.
+	option = { 
+		name = "flora_and_fauna.EVTOPTA9"
+	}
+	# Sell it off. Captain’s orders.
+	option = { 
+		name = "flora_and_fauna.EVTOPTB9"
+	}
+}
+
+# Thieving Tamarins
+country_event = {
+	id = flora_and_fauna.10
+	title = flora_and_fauna.10.t
+	desc = flora_and_fauna.10.d
+	picture = GOLDEN_LION_TAMARIN_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	#Time for a change in management. Who’s with me?
+	option = { 
+		name = "flora_and_fauna.EVTOPTA10"
+	}
+}
+
+# An Etymological Mistake or a Farce?
+country_event = {
+	id = flora_and_fauna.11
+	title = flora_and_fauna.11.t
+	desc = flora_and_fauna.11.d
+	picture = RED_KANGAROO_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# Surely, that name won’t stick. Will it?
+	option = { 
+		name = "flora_and_fauna.EVTOPTA11"
+	}
+}
+
+# A not so Holy Saviour
+country_event = {
+	id = flora_and_fauna.12
+	title = flora_and_fauna.12.t
+	desc = flora_and_fauna.12.d
+	picture = PUERTO_RICAN_PARROT_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# For America must be Christian! So blood must flow.
+	option = { 
+		name = "flora_and_fauna.EVTOPTA12"
+	}
+}
+
+# Tasmanian Wolf
+country_event = {
+	id = flora_and_fauna.13
+	title = flora_and_fauna.13.t
+	desc = flora_and_fauna.13.d
+	picture = THYLACINE_WOLF_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	
+	# Our Homelands once had wolves.  Once.
+	option = { 
+		name = "flora_and_fauna.EVTOPTA13"
+	}
+	# Husbandry? Ha! Dig deep, and dig greedily.
+	option = { 
+		name = "flora_and_fauna.EVTOPTB13"
+	}
+	# I’d like to see them try and take down a cow.
+	option = { 
+		name = "flora_and_fauna.EVTOPTB13"
+	}
+}
+
+# Moa and the Maori
+country_event = {
+	id = flora_and_fauna.14
+	title = flora_and_fauna.14.t
+	desc = flora_and_fauna.14.d
+	picture = MOA_HAAST_MAORI_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# We’re just here to resupply. We’ll embark at sunset.
+	option = { 
+		name = "flora_and_fauna.EVTOPTA14"
+	}
+	# Giant birds you say?
+	option = { 
+		name = "flora_and_fauna.EVTOPTB14"
+	}
+}
+
+# The Pygmy Elephants of the Borneo
+country_event = {
+	id = flora_and_fauna.15
+	title = flora_and_fauna.15.t
+	desc = flora_and_fauna.15.d
+	picture = BORNEO_PYGMY_ELEPHANT_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# Cash in on East-Asian sentiments.
+	option = { 
+		name = "flora_and_fauna.EVTOPTA15"
+	}
+	# Our friends in Europe might appreciate these gifts.
+	option = { 
+		name = "flora_and_fauna.EVTOPTB15"
+	}
+
+}
+
+# Beaver Bollocks
+country_event = {
+	id = flora_and_fauna.16
+	title = flora_and_fauna.16.t
+	desc = flora_and_fauna.16.d
+	picture = BEAVER_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# Our Salmon and Trout stocks are embarrassingly low, go ahead. 
+	option = { 
+		name = "flora_and_fauna.EVTOPTA16"
+	}
+	# Pliny the Elder you say?
+	option = { 
+		name = "flora_and_fauna.EVTOPTB16"
+	}
+}
+
+# A Monstrous Brute
+country_event = {
+	id = flora_and_fauna.17
+	title = flora_and_fauna.17.t
+	desc = flora_and_fauna.17.d
+	picture = WESTERN_LOWLAND_GORILLA_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# I’m bit of a fighter myself.
+	option = { 
+		name = "flora_and_fauna.EVTOPTA17"
+	}
+	# Use it to characterize our enemies barbarity.
+	option = { 
+		name = "flora_and_fauna.EVTOPTB17"
+	}
+	# Gorilla? That’s no woman.
+	option = { 
+		name = "flora_and_fauna.EVTOPTC17"
+	}
+}
+
+# Huohu - Red Panda’s Good Luck Charm
+country_event = {
+	id = flora_and_fauna.18
+	title = flora_and_fauna.18.t
+	desc = flora_and_fauna.18.d
+	picture = RED_PANDA_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# Red. How proper. 
+	option = { 
+		name = "flora_and_fauna.EVTOPTA18"
+	}
+}
+
+# Rampant Mandrill Horde
+country_event = {
+	id = flora_and_fauna.19
+	title = flora_and_fauna.19.t
+	desc = flora_and_fauna.19.d
+	picture = MANDRILL_MONKEY_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# Hide your kids, hide your wife!
+	option = { 
+		name = "flora_and_fauna.EVTOPTA19"
+	}
+	# A Horde you say?
+	option = { 
+		name = "flora_and_fauna.EVTOPTB19"
+	}
+}
+
+# Here be Dragons
+country_event = {
+	id = flora_and_fauna.20
+	title = flora_and_fauna.20.t
+	desc = flora_and_fauna.20.d
+	picture = KOMODO_DRAGON_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# A truly inhospitable area.
+	option = { 
+		name = "flora_and_fauna.EVTOPTA20"
+	}
+	# True to our heritage.
+	option = { 
+		name = "flora_and_fauna.EVTOPTB20"
+	}
+}
+
+# Myth of the Raven
+country_event = {
+	id = flora_and_fauna.21
+	title = flora_and_fauna.21.t
+	desc = flora_and_fauna.21.d
+	picture = WALRUS_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# A high cliff it is. Both of them.
+	option = { 
+		name = "flora_and_fauna.EVTOPTA21"
+	}
+	# Preposterous. Lock her up. 
+	option = { 
+		name = "flora_and_fauna.EVTOPTB21"
+	}
+}
+
+# Return of the “Cameleopards” 
+country_event = {
+	id = flora_and_fauna.22
+	title = flora_and_fauna.22.t
+	desc = flora_and_fauna.22.d
+	picture = ROTHSCHILD_GIRAFFE_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# Cameleopard. Now that’s a name I can get behind.
+	option = { 
+		name = "flora_and_fauna.EVTOPTA22"
+	}
+	# Escort these “missionaries” back to Jerusalem.
+	option = { 
+		name = "flora_and_fauna.EVTOPTB22"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.23
+	title = flora_and_fauna.23.t
+	desc = flora_and_fauna.23.d
+	picture = BELUGA_WHALE_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA23"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.24
+	title = flora_and_fauna.24.t
+	desc = flora_and_fauna.24.d
+	picture = TUATARA_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA24"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.25
+	title = flora_and_fauna.25.t
+	desc = flora_and_fauna.25.d
+	picture = MONARCH_BUTTERFLIES_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA25"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.26
+	title = flora_and_fauna.26.t
+	desc = flora_and_fauna.26.d
+	picture = KINKAJOU_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA26"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.27
+	title = flora_and_fauna.27.t
+	desc = flora_and_fauna.27.d
+	picture = GUAM_KINGFISHER_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA27"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.28
+	title = flora_and_fauna.28.t
+	desc = flora_and_fauna.28.d
+	picture = FALKLAND_ISLAND_WOLF_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA28"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.29
+	title = flora_and_fauna.29.t
+	desc = flora_and_fauna.29.d
+	picture = PRZEWALKSHI_HORSE_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA29"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.30
+	title = flora_and_fauna.30.t
+	desc = flora_and_fauna.30.d
+	picture = AUROCH_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA30"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.31
+	title = flora_and_fauna.31.t
+	desc = flora_and_fauna.31.d
+	picture = CUBAN_SOLENODON_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA31"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.32
+	title = flora_and_fauna.32.t
+	desc = flora_and_fauna.33.d
+	picture = SIBERIAN_TIGER_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA32"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.33
+	title = flora_and_fauna.33.t
+	desc = flora_and_fauna.33.d
+	picture = WHOOPING_CRANES_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA33"
+	}
+}
+
+# Goddess of the Yangtze
+country_event = {
+	id = flora_and_fauna.34
+	title = flora_and_fauna.34.t
+	desc = flora_and_fauna.34.d
+	picture = BAIJI_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# Like Waves on the Mighty Yangtze, Each Generation Surpasses the Old.
+	option = { 
+		name = "flora_and_fauna.EVTOPTA34"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.35
+	title = flora_and_fauna.35.t
+	desc = flora_and_fauna.35.d
+	picture = TAKAHE_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA35"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.36
+	title = flora_and_fauna.36.t
+	desc = flora_and_fauna.36.d
+	picture = POLAR_BEAR_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA36"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.37
+	title = flora_and_fauna.37.t
+	desc = flora_and_fauna.37.d
+	picture = MUSK_OXEN_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA37"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.38
+	title = flora_and_fauna.38.t
+	desc = flora_and_fauna.38.d
+	picture = OKAPI_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA38"
+	}
+}
+
+# Trodden Rattlesnake
+country_event = {
+	id = flora_and_fauna.39
+	title = flora_and_fauna.39.t
+	desc = flora_and_fauna.39.d
+	picture = TIMBER_RATTLESNAKE_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# DON'T TREAD ON ME!
+	option = { 
+		name = "flora_and_fauna.EVTOPTA39"
+	}
+}
+
+# Condor: King of Birds
+country_event = {
+	id = flora_and_fauna.40
+	title = flora_and_fauna.40.t
+	desc = flora_and_fauna.40.d
+	picture = CALIFORNIAN_CONDOR_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# As a creator.
+	option = { 
+		name = "flora_and_fauna.EVTOPTA40"
+	}
+	# As a destroyer.
+	option = { 
+		name = "flora_and_fauna.EVTOPTB40"
+	}
+}
+
+# Exploitation of Sao’s Francisco’s Caatinga - Spix’s Dilemma
+country_event = {
+	id = flora_and_fauna.41
+	title = flora_and_fauna.41.t
+	desc = flora_and_fauna.41.d
+	picture = SPIXS_MACAW_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA41"
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTB41"
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTC41"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.42
+	title = flora_and_fauna.42.t
+	desc = flora_and_fauna.42.d
+	picture = LABRADOR_DUCK_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA42"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.43
+	title = flora_and_fauna.43.t
+	desc = flora_and_fauna.43.d
+	picture = RING_TAILED_LEMUR_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA43"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.44
+	title = flora_and_fauna.44.t
+	desc = flora_and_fauna.44.d
+	picture = JAVAN_RHINOCEROS_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA44"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.45
+	title = flora_and_fauna.45.t
+	desc = flora_and_fauna.45.d
+	picture = COUGAR_EMERGES_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA45"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.46
+	title = flora_and_fauna.46.t
+	desc = flora_and_fauna.46.d
+	picture = LEATHERBACK_SEA_TURTLE_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA46"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.47
+	title = flora_and_fauna.47.t
+	desc = flora_and_fauna.47.d
+	picture = BLACK_FOOTED_FERRET_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA47"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.48
+	title = flora_and_fauna.48.t
+	desc = flora_and_fauna.48.d
+	picture = FENNEC_FOX_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA48"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.49
+	title = flora_and_fauna.49.t
+	desc = flora_and_fauna.49.d
+	picture = BLACK_TAILED_PRAIRIE_DOGS_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA49"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.50
+	title = flora_and_fauna.50.t
+	desc = flora_and_fauna.50.d
+	picture = DART_ARROW_FROGS_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA50"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.51
+	title = flora_and_fauna.51.t
+	desc = flora_and_fauna.51.d
+	picture = PASSENGER_PIGEON_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA51"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.52
+	title = flora_and_fauna.52.t
+	desc = flora_and_fauna.52.d
+	picture = IVORY_BILLED_WOODPECKER_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA52"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.53
+	title = flora_and_fauna.53.t
+	desc = flora_and_fauna.53.d
+	picture = HEDGEHOG_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA53"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.54
+	title = flora_and_fauna.54.t
+	desc = flora_and_fauna.54.d
+	picture = SAOLA_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA54"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.55
+	title = flora_and_fauna.55.t
+	desc = flora_and_fauna.55.d
+	picture = CAROLINA_PARAKEET_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA55"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.56
+	title = flora_and_fauna.56.t
+	desc = flora_and_fauna.56.d
+	picture = GOLDEN_TOAD_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA56"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.57
+	title = flora_and_fauna.57.t
+	desc = flora_and_fauna.57.d
+	picture = GREEN_TURTLE_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA57"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.58
+	title = flora_and_fauna.58.t
+	desc = flora_and_fauna.58.d
+	picture = WILD_BACTRIAN_CAMEL_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA58"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.59
+	title = flora_and_fauna.59.t
+	desc = flora_and_fauna.59.d
+	picture = EUROPEAN_MANTIS_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA59"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.60
+	title = flora_and_fauna.60.t
+	desc = flora_and_fauna.60.d
+	picture = ORANGE_CLOWNFISH_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA60"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.61
+	title = flora_and_fauna.61.t
+	desc = flora_and_fauna.61.d
+	picture = MANTA_RAY_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA61"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.62
+	title = flora_and_fauna.62.t
+	desc = flora_and_fauna.62.d
+	picture = ARABIAN_ORYX_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA62"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.63
+	title = flora_and_fauna.63.t
+	desc = flora_and_fauna.63.d
+	picture = PYRENNEAN_IBEX_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA63"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.64
+	title = flora_and_fauna.64.t
+	desc = flora_and_fauna.64.d
+	picture = BALD_EAGLE_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA64"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.65
+	title = flora_and_fauna.65.t
+	desc = flora_and_fauna.65.d
+	picture = ATLANTIC_BLUE_MARLIN_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA65"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.66
+	title = flora_and_fauna.66.t
+	desc = flora_and_fauna.66.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.67
+	title = flora_and_fauna.67.t
+	desc = flora_and_fauna.67.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA67"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.68
+	title = flora_and_fauna.68.t
+	desc = flora_and_fauna.68.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA68"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.69
+	title = flora_and_fauna.69.t
+	desc = flora_and_fauna.69.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA69"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.70
+	title = flora_and_fauna.70.t
+	desc = flora_and_fauna.70.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA70"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.71
+	title = flora_and_fauna.71.t
+	desc = flora_and_fauna.71.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA71"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.72
+	title = flora_and_fauna.72.t
+	desc = flora_and_fauna.72.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA72"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.73
+	title = flora_and_fauna.73.t
+	desc = flora_and_fauna.73.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA73"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.74
+	title = flora_and_fauna.74.t
+	desc = flora_and_fauna.74.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA74"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.75
+	title = flora_and_fauna.75.t
+	desc = flora_and_fauna.75.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA75"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.76
+	title = flora_and_fauna.76.t
+	desc = flora_and_fauna.76.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA76"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.77
+	title = flora_and_fauna.77.t
+	desc = flora_and_fauna.77.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA77"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.78
+	title = flora_and_fauna.78.t
+	desc = flora_and_fauna.78.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA78"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.79
+	title = flora_and_fauna.79.t
+	desc = flora_and_fauna.79.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA79"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.80
+	title = flora_and_fauna.80.t
+	desc = flora_and_fauna.80.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA80"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.81
+	title = flora_and_fauna.81.t
+	desc = flora_and_fauna.81.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA81"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.82
+	title = flora_and_fauna.82.t
+	desc = flora_and_fauna.82.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA82"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.83
+	title = flora_and_fauna.83.t
+	desc = flora_and_fauna.83.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA83"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.84
+	title = flora_and_fauna.84.t
+	desc = flora_and_fauna.84.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA84"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.85
+	title = flora_and_fauna.85.t
+	desc = flora_and_fauna.85.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA85"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.86
+	title = flora_and_fauna.86.t
+	desc = flora_and_fauna.86.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA86"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.87
+	title = flora_and_fauna.87.t
+	desc = flora_and_fauna.87.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA87"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.88
+	title = flora_and_fauna.88.t
+	desc = flora_and_fauna.88.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA88"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.89
+	title = flora_and_fauna.89.t
+	desc = flora_and_fauna.89.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA89"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.90
+	title = flora_and_fauna.90.t
+	desc = flora_and_fauna.90.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA90"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.91
+	title = flora_and_fauna.91.t
+	desc = flora_and_fauna.91.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA91"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.92
+	title = flora_and_fauna.92.t
+	desc = flora_and_fauna.92.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA92"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.93
+	title = flora_and_fauna.93.t
+	desc = flora_and_fauna.93.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA93"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.94
+	title = flora_and_fauna.94.t
+	desc = flora_and_fauna.94.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA94"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.95
+	title = flora_and_fauna.95.t
+	desc = flora_and_fauna.95.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA95"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.96
+	title = flora_and_fauna.96.t
+	desc = flora_and_fauna.96.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA96"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.97
+	title = flora_and_fauna.97.t
+	desc = flora_and_fauna.97.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA97"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.98
+	title = flora_and_fauna.98.t
+	desc = flora_and_fauna.98.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA98"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.99
+	title = flora_and_fauna.99.t
+	desc = flora_and_fauna.99.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA99"
+	}
+}
+
+
+country_event = {
+	id = flora_and_fauna.100
+	title = flora_and_fauna.100.t
+	desc = flora_and_fauna.100.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA100"
+	}
+}
+
+# Admiral Kakapo
+country_event = {
+	id = flora_and_fauna.139
+	title = flora_and_fauna.139.t
+	desc = flora_and_fauna.139.d
+	picture = ADMIRAL_KAKAPO_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# Sell the painting.
+	option = { 
+		name = "flora_and_fauna.EVTOPTA139"
+	}
+	# Our grand navy needs Mr. Kakapo.
+	option = { 
+		name = "flora_and_fauna.EVTOPTB139"
+	}
+}
+
+# Dragon Pond
+country_event = {
+	id = flora_and_fauna.140
+	title = flora_and_fauna.140.t
+	desc = flora_and_fauna.140.d
+	picture = DRAGON_IN_THE_POND_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# Even if it is not true, it is well conceived.
+	option = { 
+		name = "flora_and_fauna.EVTOPTA140"
+	}
+}
+
+country_event = {
+	id = flora_and_fauna.
+	title = flora_and_fauna.t
+	desc = flora_and_fauna.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA"
+	}
+}
+
+country_event = {
+	id = flora_and_fauna.
+	title = flora_and_fauna.t
+	desc = flora_and_fauna.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA"
+	}
+}
+
+country_event = {
+	id = flora_and_fauna.
+	title = flora_and_fauna.t
+	desc = flora_and_fauna.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA"
+	}
+}
+
+country_event = {
+	id = flora_and_fauna.
+	title = flora_and_fauna.t
+	desc = flora_and_fauna.d
+	picture = 
+	trigger = {
+		primary_culture = phoenician
+	}
+	option = { 
+		name = "flora_and_fauna.EVTOPTA"
+	}
+}

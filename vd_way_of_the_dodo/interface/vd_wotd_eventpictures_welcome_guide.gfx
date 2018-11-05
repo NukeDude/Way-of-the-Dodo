@@ -1,0 +1,103 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/welcome_guide/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+}

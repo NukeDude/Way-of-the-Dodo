@@ -1,0 +1,1281 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "KAKAPO_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/KAKAPO_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "STELLER_SEA_COW_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/STELLER_SEA_COW_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "JAPANESE_GIANT_SALAMANDER_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/JAPANESE_GIANT_SALAMANDER_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "ELEPHANT_BIRD_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/ELEPHANT_BIRD_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "AFRICAN_PENGUINS_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/AFRICAN_PENGUINS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "ORANGUTAN_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/ORANGUTAN_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "HOATZIN_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/HOATZIN_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "PANDA_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/PANDA_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "OCELOT_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/OCELOT_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "GOLDEN_LION_TAMARIN_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/GOLDEN_LION_TAMARIN_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "RED_KANGAROO_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/RED_KANGAROO_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "PUERTO_RICAN_PARROT_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/PUERTO_RICAN_PARROT_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "THYLACINE_WOLF_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/THYLACINE_WOLF_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "MOA_HAAST_MAORI_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/MOA_HAAST_MAORI_eventPicture.dds"
+		allwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "BORNEO_PYGMY_ELEPHANT_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/BORNEO_PYGMY_ELEPHANT_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "BEAVER_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/BEAVER_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "WESTERN_LOWLAND_GORILLA_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/WESTERN_LOWLAND_GORILLA_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "RED_PANDA_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/RED_PANDA_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "MANDRILL_MONKEY_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/MANDRILL_MONKEY_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "KOMODO_DRAGON_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/KOMODO_DRAGON_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "WALRUS_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/WALRUS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "ROTHSCHILD_GIRAFFE_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/ROTHSCHILD_GIRAFFE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "BELUGA_WHALE_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/BELUGA_WHALE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "TUATARA_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/TUATARA_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "MONARCH_BUTTERFLIES_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/MONARCH_BUTTERFLIES_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "KINKAJOU_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/KINKAJOU_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "GUAM_KINGFISHER_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/GUAM_KINGFISHER_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "FALKLAND_ISLAND_WOLF_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/FALKLAND_ISLAND_WOLF_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "PRZEWALKSHI_HORSE_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/PRZEWALKSHI_HORSE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "AUROCH_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/AUROCH_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "CUBAN_SOLENODON_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/CUBAN_SOLENODON_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "SIBERIAN_TIGER_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/SIBERIAN_TIGER_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "WHOOPING_CRANES_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/WHOOPING_CRANES_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "BAIJI_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/BAIJI_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "TAKAHE_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/TAKAHE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "POLAR_BEAR_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/POLAR_BEAR_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "MUSK_OXEN_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/MUSK_OXEN_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "OKAPI_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/OKAPI_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "TIMBER_RATTLESNAKE_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/TIMBER_RATTLESNAKE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "CALIFORNIAN_CONDOR_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/CALIFORNIAN_CONDOR_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "SPIXS_MACAW_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/SPIXS_MACAW_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "LABRADOR_DUCK_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/LABRADOR_DUCK_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "RING_TAILED_LEMUR_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/RING_TAILED_LEMUR_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "JAVAN_RHINOCEROS_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/JAVAN_RHINOCEROS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "COUGAR_EMERGES_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/COUGAR_EMERGES_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "LEATHERBACK_SEA_TURTLE_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/LEATHERBACK_SEA_TURTLE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "BLACK_FOOTED_FERRET_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/BLACK_FOOTED_FERRET_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "FENNEC_FOX_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/FENNEC_FOX_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "BLACK_TAILED_PRAIRIE_DOGS_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/BLACK_TAILED_PRAIRIE_DOGS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "DART_ARROW_FROGS_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/DART_ARROW_FROGS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "PASSENGER_PIGEON_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/PASSENGER_PIGEON_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "IVORY_BILLED_WOODPECKER_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/IVORY_BILLED_WOODPECKER_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "HEDGEHOG_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/HEDGEHOG_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "SAOLA_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/SAOLA_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "CAROLINA_PARAKEET_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "GOLDEN_TOAD_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/GOLDEN_TOAD_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "GREEN_TURTLE_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/GREEN_TURTLE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "WILD_BACTRIAN_CAMEL_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/WILD_BACTRIAN_CAMEL_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "EUROPEAN_MANTIS_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/EUROPEAN_MANTIS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "ORANGE_CLOWNFISH_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/ORANGE_CLOWNFISH_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "MANTA_RAY_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/MANTA_RAY_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "ARABIAN_ORYX_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/ARABIAN_ORYX_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "PYRENNEAN_IBEX_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/PYRENNEAN_IBEX_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "BALD_EAGLE_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/BALD_EAGLE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "ATLANTIC_BLUE_MARLIN_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/ATLANTIC_BLUE_MARLIN_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "ADMIRAL_KAKAPO_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/ADMIRAL_KAKAPO_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "DRAGON_IN_THE_POND_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/DRAGON_IN_THE_POND_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+			
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/flora_and_fauna/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+		
+}

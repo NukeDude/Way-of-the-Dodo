@@ -1,0 +1,72 @@
+########################################################################################
+#Way of the Dodo - Welcome Guide
+################
+#1. 
+#2. 
+
+namespace = welcome_guide
+
+# 
+country_event = {
+	id = welcome_guide.1
+	title = welcome_guide.1.t
+	desc = welcome_guide.1.d
+	picture = HEQIN_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "welcome_guide.EVTOPTA1"
+	}
+	# 
+	option = { 
+		name = "welcome_guide.EVTOPTB1"
+	}
+}
+
+# 
+country_event = {
+	id = welcome_guide.2
+	title = welcome_guide.2.t
+	desc = welcome_guide.2.d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "welcome_guide.EVTOPTA2"
+	}
+	# 
+	option = { 
+		name = "welcome_guide.EVTOPTB2"
+	}
+	#
+	option = { 
+		name = "welcome_guide.EVTOPTC2"
+	}
+}
+
+# 
+country_event = {
+	id = welcome_guide.
+	title = welcome_guide..t
+	desc = welcome_guide..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "welcome_guide.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "welcome_guide.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "welcome_guide.EVTOPTC"
+	}
+}

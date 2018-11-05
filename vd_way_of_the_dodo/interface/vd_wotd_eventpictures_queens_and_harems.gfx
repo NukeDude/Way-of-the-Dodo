@@ -1,0 +1,103 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "HEQIN_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/HEQIN_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/queens_and_harems/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+}

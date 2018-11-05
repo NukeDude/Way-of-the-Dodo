@@ -1,0 +1,72 @@
+########################################################################################
+#Way of the Dodo - Queens and Harems
+################
+#1. Heqin - A Marriage of Peace
+#2. 
+
+namespace = queens_and_harems
+
+# Heqin - A Marriage of Peace
+country_event = {
+	id = queens_and_harems.1
+	title = queens_and_harems.1.t
+	desc = queens_and_harems.1.d
+	picture = HEQIN_eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "queens_and_harems.EVTOPTA1"
+	}
+	# 
+	option = { 
+		name = "queens_and_harems.EVTOPTB1"
+	}
+}
+
+# 
+country_event = {
+	id = queens_and_harems.2
+	title = queens_and_harems.2.t
+	desc = queens_and_harems.2.d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "queens_and_harems.EVTOPTA2"
+	}
+	# 
+	option = { 
+		name = "queens_and_harems.EVTOPTB2"
+	}
+	#
+	option = { 
+		name = "queens_and_harems.EVTOPTC2"
+	}
+}
+
+# 
+country_event = {
+	id = queens_and_harems.
+	title = queens_and_harems..t
+	desc = queens_and_harems..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "queens_and_harems.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "queens_and_harems.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "queens_and_harems.EVTOPTC"
+	}
+}

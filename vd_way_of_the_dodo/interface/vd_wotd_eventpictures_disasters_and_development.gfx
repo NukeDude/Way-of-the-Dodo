@@ -1,0 +1,49 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "ZHENG_HE_LEGACY_eventPicture"
+		texturefile = "gfx/event_pictures/disasters_and_development/ZHENG_HE_LEGACY_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "TRAKAI_CASTLE_eventPicture"
+		texturefile = "gfx/event_pictures/disasters_and_development/TRAKAI_CASTLE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "SEA_COW_CHEESE_eventPicture"
+		texturefile = "gfx/event_pictures/disasters_and_development/SEA_COW_CHEESE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GRACHTENGORDEL_eventPicture"
+		texturefile = "gfx/event_pictures/disasters_and_development/GRACHTENGORDEL_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/disasters_and_development/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/disasters_and_development/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/disasters_and_development/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/disasters_and_development/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "_eventPicture"
+		texturefile = "gfx/event_pictures/disasters_and_development/_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+}

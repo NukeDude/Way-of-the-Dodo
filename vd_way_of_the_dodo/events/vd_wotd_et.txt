@@ -1,0 +1,68 @@
+########################################################################################
+#Way of the Dodo - Extended Timeline (Number of events that don't fit the 1444-1821 timeframe)
+################
+#1. 
+#2. 
+
+namespace = wotd_et
+
+# An Odd Flightless Bird
+country_event = {
+	id = wotd_et.1
+	title = wotd_et.1.t
+	desc = wotd_et.1.d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "wotd_et.EVTOPTA1"
+	}
+	# 
+	option = { 
+		name = "wotd_et.EVTOPTB1"
+	}
+	# 
+	option = { 
+		name = "wotd_et.EVTOPTC1"
+	}
+}
+
+# 
+country_event = {
+	id = wotd_et.2
+	title = wotd_et.2.t
+	desc = wotd_et.2.d
+	picture trigger = {
+		primary_culture = phoenician
+	}= _eventPicture
+	
+	# 
+	option = { 
+		name = "wotd_et.EVTOPTA2"
+	}
+}
+
+# 
+country_event = {
+	id = wotd_et.
+	title = wotd_et..t
+	desc = wotd_et..d
+	picture = _eventPicture
+	trigger = {
+		primary_culture = phoenician
+	}
+	# 
+	option = { 
+		name = "wotd_et.EVTOPTA"
+	}
+	# 
+	option = { 
+		name = "wotd_et.EVTOPTB"
+	}
+	#
+	option = { 
+		name = "wotd_et.EVTOPTC"
+	}
+}
